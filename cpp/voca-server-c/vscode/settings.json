@@ -1,0 +1,8 @@
+{
+    "cmake.configureOnOpen": true,
+    "cmake.generator": "Ninja",
+    "cmake.buildDirectory": "${workspaceFolder}/build",
+    "cmake.configureArgs": ["-DCMAKE_BUILD_TYPE=Debug"],
+    "C_Cpp.default.compilerPath": "C:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/VC/Tools/MSVC/<版本>/bin/Hostx64/x64/cl.exe",
+    "C_Cpp.intelliSenseMode": "windows-msvc-x64"
+}

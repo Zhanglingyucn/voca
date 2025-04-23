@@ -1,0 +1,11 @@
+./om3-compress sensordata
+./om3-compress soccerdata
+./om3-compress stockdata
+./om3-compress synthetic_128m
+./om3-compress synthetic_16m
+./om3-compress synthetic_256m
+./om3-compress synthetic_2m
+./om3-compress synthetic_32m
+./om3-compress synthetic_64m
+./om3-compress synthetic_8m
+./om3-compress traffic
