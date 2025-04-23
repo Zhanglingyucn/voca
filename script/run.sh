@@ -2,6 +2,10 @@
 #1）从git上下载代码
 #下载数据，将下载下来的csv数据，后面生成的模拟数据，也以csv格式命名，放到 data/tvdata/下
 
+
+#创建相关目录
+mkdir data images m4_result compareresult  data/tvdata/ data/duckdata/ data/om3data/ output/ cpp/voca-server-c/om3_data/ -p
+
 #2）生成 om3系数数据
 #在cpp/om3-compress 下编译代码，压缩
 
