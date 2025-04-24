@@ -1215,12 +1215,12 @@ ON k = floor(${width}*(t-${startTime})::bigint / (${endTime}-${startTime}+1))
 
 const { DuckDBInstance } = require('@duckdb/node-api');
 const { performance } = require('perf_hooks'); // Use performance for more accurate timing in Node.js
-const { from } = require("pg-copy-streams");
+
 
 
 async function getDickConn(DB_NAME){
-    let csvFile = `../data/tvdata/${DB_NAME}.csv`
-    let dbfile = `../data/duckdata/${DB_NAME}.db`
+    let csvFile = `../data/${DB_NAME}.csv`
+    let dbfile = `../data/${DB_NAME}.db`
 
     instance = await DuckDBInstance.create(dbfile); //my_database.db
     let createsql =  `CREATE TABLE IF NOT EXISTS ${DB_NAME} AS
